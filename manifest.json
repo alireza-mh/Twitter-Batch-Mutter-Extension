@@ -1,0 +1,13 @@
+{
+  "name": "Batch Filter",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [{
+    "js": ["contentscript.js"],
+    "matches": ["https://twitter.com/settings/muted_keywords"]
+  }],
+  "web_accessible_resources": ["script.js" , "popup.js"]
+}
