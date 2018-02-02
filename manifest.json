@@ -7,7 +7,12 @@
   },
   "content_scripts": [{
     "js": ["contentscript.js"],
-    "matches": ["https://twitter.com/settings/muted_keywords"]
+    "matches": ["<all_urls>"],
+    "all_frames": true
   }],
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
   "web_accessible_resources": ["script.js" , "popup.js"]
 }
