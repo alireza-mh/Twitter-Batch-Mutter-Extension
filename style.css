@@ -1,0 +1,36 @@
+#batch_mutter{
+    min-width: 250px;
+    min-height: 100px;
+    margin-bottom: 10px;
+}
+#btn_mutter{
+    border:none;
+    text-align: center;
+    background: #1DA1F2;
+    border-radius: 100px;
+    height: 30px;
+    width: 100px;
+    color:white;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all ease-In 0.2s ;
+    cursor: pointer;
+}
+#btn_mutter:hover{
+    transform: scale(1.03) translateY(-3px);
+    box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    transition: all ease-In 0.2s ;
+}
+.twitter-image{
+    width: 30px;
+    height: 30px;
+    transition: all ease-In 0.2s ;
+}
+.twitter-image:hover{
+    opacity: 0.6;
+    transition: all ease-In 0.2s ;
+}
+.wrapper{
+    padding: 10px;
+    text-align: center;
+}

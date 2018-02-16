@@ -1,4 +1,3 @@
-console.log("10");
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('button').addEventListener('click', submitToTwitter);
 });

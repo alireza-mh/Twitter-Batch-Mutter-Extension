@@ -6,13 +6,20 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Twitter Batch Mutter</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="wrapper">
+<div class="twitter-link">
+    <a class="mute-page-link" title="Twitter mute page" href="https://twitter.com/settings/muted_keywords" target="_blank">
+        <img class="twitter-image" src="img/Twitter_Bird-mutter.svg" />
+    </a>
+</div>
 <form>
-    <p id="paraf">123</p>
-    <input id="batch_mutter" multiple type="text" value="" />
+    <textarea id="batch_mutter"  value="" ></textarea>
     <button id="btn_mutter"  type="submit" >Submit</button>
 </form>
+</div>
 <script type="text/javascript" src="script.js"></script>
 <script type="text/javascript" src="popup.js"></script>
 </body>
