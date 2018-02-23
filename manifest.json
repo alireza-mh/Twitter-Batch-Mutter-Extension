@@ -1,10 +1,14 @@
 {
-  "name": "Batch Filter",
+  "name": "Batch Mutter",
   "version": "1.0",
+  "description": "Help you to batch mute words on twitter. please visit twitter word mute page first.",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "popup.html"
   },
+  "icons": { "16": "./icon/icon16.png",
+    "48": "./icon/icon48.png",
+    "128": "./icon/icon128.png" },
   "content_scripts": [{
     "js": ["contentscript.js"],
     "matches": ["<all_urls>"],
