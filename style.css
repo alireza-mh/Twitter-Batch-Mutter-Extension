@@ -21,6 +21,33 @@
     box-shadow: 0 3px 5px rgba(0,0,0,.2);
     transition: all ease-In 0.2s ;
 }
+#link-more{
+    color: #1DA1F2;
+    cursor: pointer;
+}
+#more-options{
+    display: none;
+    padding: 15px 0;
+    text-align: left;
+}
+#more-options input{
+    margin-bottom: 5px;
+}
+#btn-more{
+    border:none;
+    display: block;
+    text-align: center;
+    background: #1DA1F2;
+    border-radius: 50px;
+    height: 15px;
+    width: 40px;
+    color:white;
+    font-size: 12px;
+    font-weight: 400;
+    transition: all ease-In 0.2s ;
+    cursor: pointer;
+    padding: 5px;
+}
 .twitter-image{
     width: 30px;
     height: 30px;
@@ -33,4 +60,31 @@
 .wrapper{
     padding: 10px;
     text-align: center;
+}
+#textarea-div{
+    position: relative;
+}
+#custom{
+    width: 100%;
+    height: 20px;
+}
+.loader {
+    position: absolute;
+    top:calc(50% - 45px);
+    left:calc(50% - 45px);
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #1DA1F2; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    display: none;
+}
+.col-12{
+    width: 50%;
+    float: left;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }

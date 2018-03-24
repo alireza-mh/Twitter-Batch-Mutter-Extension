@@ -10,15 +10,35 @@
 </head>
 <body>
 <div class="wrapper">
-<div class="twitter-link">
-    <a class="mute-page-link" title="Twitter mute page" href="https://twitter.com/settings/muted_keywords" target="_blank">
-        <img class="twitter-image" src="img/Twitter_Bird-mutter.svg" />
-    </a>
-</div>
-<form>
-    <textarea id="batch_mutter"  value="" ></textarea>
-    <button id="btn_mutter"  type="submit" >Submit</button>
-</form>
+    <div class="twitter-link">
+        <a class="mute-page-link" title="Twitter mute page" href="https://twitter.com/settings/muted_keywords" target="_blank">
+            <img class="twitter-image" src="img/Twitter_Bird-mutter.svg" />
+        </a>
+    </div>
+    <form>
+        <div id="textarea-div">
+            <div id="textarea-loader" class="loader"></div>
+            <textarea id="batch_mutter"  value="" ></textarea>
+        </div>
+        <button id="btn_mutter"  type="submit" >Submit</button>
+    </form>
+    <div>
+        <p id="link-more">Show more options</p>
+    </div>
+    <div id="more-options">
+        <form>
+            <div class="col-12">
+                <input type="checkbox" id="curse" name="curse" value="curse"/> <label for="curse">curse</label> <br/>
+                <input type="checkbox" id="movie" name="movie" value="movie"/><label for="movie">Movies and series</label><br/>
+            </div>
+            <div class="col-12">
+                <input type="checkbox" id="sport" name="sport" value="sport"/><label for="sport">Sport</label><br/>
+                <input type="checkbox" id="political" name="political" value="political"/><label for="sport">Political</label><br/>
+            </div>
+            <input type="text" name="custom" id="custom" placeholder="Custom Url txt file" value=""/>
+            <span id="btn-more">Add</span>
+        </form>
+    </div>
 </div>
 <script type="text/javascript" src="script.js"></script>
 <script type="text/javascript" src="popup.js"></script>
