@@ -1,3 +1,6 @@
+/**
+ * @desc Wait until all DOM loaded then execute DOM manipulation
+ */
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('#btn_mutter').addEventListener('click', submitToTwitter);
     document.querySelector("#link-more").addEventListener("click" , function () {
@@ -23,7 +26,10 @@ function submitToTwitter() {
     chrome.storage.sync.set(batchText);
     var btn = document.querySelector(".MutedKeywordsAddItemForm-button");
 }
-
+/**
+ * @name loadInput
+ * @desc Show Loading(spinner) inside of Text-Area
+ */
 function loadInput() {
     if (document.getElementById("textarea-loader").style.display === "block"){
         document.getElementById("textarea-loader").style.display = "none";
