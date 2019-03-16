@@ -95,7 +95,6 @@ function categoryMutter() {
         });
     }
     if(document.querySelector("input[name=custom]").value !== ""){
-        console.log("inside");
         let url = document.querySelector("input[name=custom]").value;
         fetch(url).then(function(response) {
             response.text().then(function(text) {
