@@ -5,7 +5,9 @@ this extension will run without needing your account information. since there wa
 ![Preview](https://image.ibb.co/jwNXSc/Twitter_batch_muter_desc.gif)
 
 ### Why this extension exist
-todo
+---------
+sometimes some annoying events happen and there will be more annoying twitter storm with those events hashtag. how to get rid of them fast without clicking add and submit them separately. this extension will get all the words you get annoyed by and submit them automatically without asking for your account info.
+
 ### Install
 ---------
 download the project then extract it. open chrome and enter `chrome://extensions` at address bar to visit extensions page.
