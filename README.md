@@ -21,3 +21,4 @@ Instruction:
     https://twitter.com/settings/muted_keywords or by clicking Twitter Batch Muter logo on popup.
  2. write your words and separate them by enter or comma ( , ) .
  3. press submit.
+ 4. wait until all words get submitted on page.
