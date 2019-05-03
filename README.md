@@ -2,6 +2,7 @@
 
 This extension help you to batch mute words on twitter muted keywords page(https://twitter.com/settings/muted_keywords).
 this extension will run without needing your account information. since there wasn't any API for muting words this extension will automatically add your words one by one.
+
 ![Preview](https://image.ibb.co/jwNXSc/Twitter_batch_muter_desc.gif)
 
 ### Why this extension exist
