@@ -10,6 +10,10 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('#btn-more').addEventListener('click', categoryMutter);
 });
 
+/**
+ * @name submitToTwitte
+ * @desc Submit values to twitter site.
+ */
 function submitToTwitter() {
     var batchText = document.getElementById("batch_mutter").value;
     window.close();
