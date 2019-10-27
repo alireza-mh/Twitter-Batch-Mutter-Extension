@@ -80,7 +80,7 @@
     animation: spin 2s linear infinite;
     display: none;
 }
-.col-12{
+.half-width{
     width: 50%;
     float: left;
 }
