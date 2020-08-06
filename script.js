@@ -1,4 +1,4 @@
-i = 0;
+let i = 0;
 function setTwitter() {
     loopOfSubmit();
 }
