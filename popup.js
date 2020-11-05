@@ -2,16 +2,19 @@
  * @desc Wait until all DOM loaded then execute DOM manipulation
  */
 document.addEventListener('DOMContentLoaded', function () {
-    document.querySelector('#btn_mutter').addEventListener('click', submitToTwitter);
-    document.querySelector("#link-more").addEventListener("click" , function () {
+    const btnMutter  = document.querySelector('#btn_mutter');
+    const linkMore  = document.querySelector('#link-more');
+    const btnMore  = document.querySelector('#btn-more');
+    btnMutter && btnMutter.addEventListener('click', submitToTwitter);
+    linkMore && linkMore.addEventListener("click" , function () {
         this.style.display = "none" ;
         document.querySelector("#more-options").style.display = "block";
     });
-    document.querySelector('#btn-more').addEventListener('click', categoryMutter);
+    btnMore && btnMore.addEventListener('click', categoryMutter);
 });
 
 /**
- * @name submitToTwitte
+ * @name submitToTwitter
  * @desc Submit values to twitter site.
  */
 function submitToTwitter() {
